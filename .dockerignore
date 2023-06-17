@@ -1,0 +1,15 @@
+# Ignore common development files and directories
+.git
+.vscode
+*.pyc
+*.pyo
+__pycache__
+*.egg-info
+
+# Ignore FastAPI specific files and directories
+__init__.py
+alembic
+.dockerignore
+.DS_Store
+docs
+tests
